@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>1. İstanbul’da en iyi tiramisu nerede yenir?
+
+Tiramusi diyince aklımıza gelen ilk ülke İtalya olsa da, İtalyanların tadında tiramusuyu İstanbul'da yemek de mümkün... 
+İstanbul'da en lezzetli tiramusu Ara Cafe'de yenir.
+İstanbul'da mekan müdavimlerinin bileceği İstanbul'un en güzel insan ve manzara fotoğraflarını çeken Ara Güler'e atıfta bulunan mekan Ara Cafe, 2001 yılından beri samimi ortamı ile müdavimlerine eşsiz lezzetler sunmakta. 
+Bu lezzetler arasında Tiramisu'da yer alıyor. Alıştığınız tiramusu tadına farklı yorum katan Ara Cafe'de bu tatlıyı kesinlikle yemelisiniz. 
+
+2. İstanbul’da en iyi kebap nerede yenir?
+
+İstanbul'da kolunuzu savurduğunuz her yerde bir kebapçıya çarpması mümkün. 
+Et yemeklerinin adresi olan Türkiye'de, en çok İstanbul'da kebap restoranı bulunur.
+ Bu kadar turist sadece istanbul'un büyüsü için gelmiyor, lezzetli türk mutfağını keşfetmek içinde geliyor.
+Türk kültüründe önemli bir yeri olan kebapı yiyebiliceğiniz adresler içinde sizin için en iyisini bulmaya çalıştık
+. Çok uzun süren lezzet avımızda en iyiyi bulmak biraz zor oldu. Ama, sizler için bunu başardık.
+En iyi kebapın adresi Hamdi Restaurant.
+Eminönü Yeni Cami’nin yanında bulunan otoparkın köşesinde ilk tezgahını açtığından beri tam 44 yıl geçmiş
+. Bir küçük ızgara ve seyyar tezgahı ile 7 yıl boyunca sokak satıcılığı yapan Hamdi Usta, şimdi İstanbul'un en iyi kebapcılarından bunun sırrı nedir diye soruyoruz. 
+"Güneydoğu sofrasının temel özellikleriniden kopmadan kebap yapmak ve ilk günkü lezzeti hep korumak" diye cevap veriyor.
+
+3. İstanbul’da en iyi kumpir nerede yenir?
+
+Fırınlanmış patatesin uzayıp giden kaşarla birleşiminden doğan ve birbirinden farklı malzemelerle zenginleştirilerek servis edilen kumpirin en lezzetlisini Ortaköy'de yemenizi tavsiye ediyoruz. 
+Anadolu'nun bazı kesimlerinde "patates" kelimesinin karşılığı olarak kullanılmakla beraber, aslında fırınlanmış patatesin ezilmesi ile yapılan kumpiri, nefis boğaz manzarasına karşı yiyebiliceğiniz tek adres Ortaköy semtidir.
+ Biribirinden renkli kumpircilerin dizildiği ortaköy sahili, aynı zamanda bir gezi rotasıdır. 
+
+6. İstanbul’da en iyi mıhlama nerede yenir?
+
+Trabzon'un uzayan lezzeti Mıhlama'nın sırrı dibinin tutması, ne kadar dibi tutarsa o kadar lezzetlidir.
+İstanbul'da bu lezzeti yiyebiliceğiniz en iyi adres Nalia Karadeniz Mutfağı.
+ Tamamen Karadeniz mutfağı menüsüyle hizmet veren Nalia'nın sadece iki şubesi var. 
+Tavsiyemiz bir pazar günü kahvaltı keyfinizi mıhlama eşliğinde yapmanız.</value>
+  </data>
+</root>
